@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "365iqtest",
+			"path": "."
+		},
+		{
+			"name": "questions",
+			"path": "../TESTPROJECT-master/TESTPROJECT-master/questions"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "365iqtest"
+	}
+}

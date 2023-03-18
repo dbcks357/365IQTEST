@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+
+content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 100%;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+header, main{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    width: 60%;
+    color: white;
+    display: flex;
+    align-items: start;
+    background:white
+}
+
+header{
+color: white;
+text-align: center;
+border-top: 1px solid black;
+font-size: large;
+}
+
+header h1{
+    color: black;
+}
+
+header h3{
+    color: black;
+    font-size: smaller;
+}
+    
+
+ul{
+    background-color: white;
+    color: black;
+    list-style: none;
+    padding: 1rem;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#start{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+footer{
+    border-top: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+header2{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+#container2{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+img#question{
+    width: 50vh;
+    height: 50vh;
+}
+
+#choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#choices img{
+    width: 10vh;
+    height: 10vh;
+}
+
+
+#보기{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.choice{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.choice img{
+    width: 5vh;
+    height: 5vh;
+}
